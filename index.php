@@ -8,7 +8,8 @@ require __DIR__ . '/includes/header.php';
         <div class="hero-copy">
             <p class="eyebrow">Speciaalzaak voor buitenkoks · Breda</p>
             <h1>Goed vuur.<br><span>Goede verhalen.</span></h1>
-            <p class="hero-intro">Ontdek de bijzondere Kamado's van Joris: met aandacht uitgekozen, klaar voor lange avonden aan tafel.</p>
+            <p class="hero-intro">Ontdek de bijzondere Kamado's van Joris: met aandacht uitgekozen,
+                klaar voor lange avonden aan tafel.</p>
             <div class="button-row">
                 <a class="button button-primary" href="kamados.php">Ontdek de Kamado's <span aria-hidden="true">→</span></a>
                 <a class="text-link" href="masterclass.php">Leer koken op vuur <span aria-hidden="true">↗</span></a>
@@ -27,14 +28,15 @@ require __DIR__ . '/includes/header.php';
             <h2>Een speciaalzaak<br>met vuur in het hart.</h2>
         </div>
         <div class="intro-body">
-            <p>Bij Kamado Breda draait het om meer dan een barbecue. Joris helpt je de juiste Kamado vinden, laat je zien wat je ermee kunt en brengt beginnende pitmasters samen rond het vuur.</p>
+            <p>Bij Kamado Breda draait het om meer dan een barbecue. Joris helpt je de juiste Kamado vinden,
+                laat je zien wat je ermee kunt en brengt beginnende pitmasters samen rond het vuur.</p>
             <a class="text-link" href="kamados.php">Bekijk het assortiment <span aria-hidden="true">→</span></a>
         </div>
     </section>
 
     <section class="feature-grid section-wrap" aria-label="Ontdek Kamado Breda">
         <a class="feature-card feature-product" href="kamados.php">
-            <img src="img/kamado-green.png" alt="Groene Kamado met houten zijtafels en stevig onderstel">
+            <img src="img/product-kamado-deck.png" alt="Kamado met zijtafels op een terras">
             <span class="feature-index">01 — Het assortiment</span>
             <span class="feature-title">Kies jouw<br>Kamado <span aria-hidden="true">↗</span></span>
         </a>

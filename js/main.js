@@ -15,9 +15,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const slides = [
         { src: 'img/kamado-black-shelves.png', alt: 'Zwarte Kamado met houten zijtafels in de tuin', title: 'Kamado in de tuin' },
-        { src: 'img/kamado-deck.png', alt: 'Zwarte Kamado met houten zijtafels op een terras', title: 'Koken op het terras' },
-        { src: 'img/kamado-green.png', alt: 'Groene Kamado met houten zijtafels en onderstel', title: 'Groene Kamado' },
-        { src: 'img/kamado-open.png', alt: 'Kamado met deksel open en eten op de grill', title: 'Van het vuur op tafel' }
+        { src: 'img/product-kamado-deck.png', alt: 'Kamado met zijtafels op een terras', title: 'Kamado met zijtafels' },
+        { src: 'img/product-kamado-open.png', alt: 'Kamado met deksel open en eten op de grill', title: 'Van het vuur op tafel' }
     ];
     const image = gallery.querySelector('[data-gallery-image]');
     const counter = gallery.querySelector('[data-gallery-counter]');

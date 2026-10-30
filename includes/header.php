@@ -25,7 +25,7 @@ $activePage = $activePage ?? '';
         <a href="index.php" <?= $activePage === 'home' ? 'aria-current="page"' : '' ?>>Home</a>
         <a href="kamados.php" <?= $activePage === 'kamados' ? 'aria-current="page"' : '' ?>>De Kamado's</a>
         <a href="masterclass.php" <?= $activePage === 'masterclass' ? 'aria-current="page"' : '' ?>>Masterclasses</a>
-        <a href="styleguide.php" <?= $activePage === 'styleguide' ? 'aria-current="page"' : '' ?>>Stijlgids</a>
+        <a href="locatie.php" <?= $activePage === 'locatie' ? 'aria-current="page"' : '' ?>>Locatie</a>
     </nav>
     <a class="header-cta" href="masterclass.php#inschrijven">Schrijf je in <span aria-hidden="true">↗</span></a>
 </header>

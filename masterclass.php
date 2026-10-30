@@ -63,7 +63,7 @@ require __DIR__ . '/includes/header.php';
                     <div><span class="fact-number">02</span><span><strong>Samen bereiden</strong><small>Ontdek technieken, ingrediënten en smaak.</small></span></div>
                     <div><span class="fact-number">03</span><span><strong>Aan tafel</strong><small>Proef samen wat er van het vuur komt.</small></span></div>
                 </div>
-                <img class="class-photo" src="img/kamado-open.png" alt="Samen koken op een Kamado met het deksel open">
+                <img class="class-photo" src="img/product-kamado-open.png" alt="Samen koken op een Kamado met het deksel open">
             </div>
             <div class="signup-card" id="inschrijven">
                 <p class="eyebrow">Reserveer je plek</p>

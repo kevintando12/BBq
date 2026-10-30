@@ -14,20 +14,18 @@ require __DIR__ . '/includes/header.php';
         <div class="gallery" data-gallery>
             <div class="gallery-image-wrap">
                 <img class="gallery-image" src="img/kamado-black-shelves.png" alt="Zwarte Kamado met houten zijtafels in de tuin" data-gallery-image>
-                <div class="gallery-overlay"><span data-gallery-counter>01 / 04</span><span>Kamado in de tuin</span></div>
+                <div class="gallery-overlay"><span data-gallery-counter>01 / 03</span><span>Kamado in de tuin</span></div>
                 <button class="gallery-arrow gallery-previous" type="button" aria-label="Vorige foto"><span aria-hidden="true">←</span></button>
                 <button class="gallery-arrow gallery-next" type="button" aria-label="Volgende foto"><span aria-hidden="true">→</span></button>
             </div>
             <div class="gallery-controls">
                 <div class="gallery-thumbnails" role="group" aria-label="Kies een foto">
                     <button class="gallery-thumb is-active" type="button" aria-label="Toon foto 1: zwarte Kamado met houten zijtafels" aria-pressed="true" data-gallery-index="0"><img src="img/kamado-black-shelves.png" alt=""></button>
-                    <button class="gallery-thumb" type="button" aria-label="Toon foto 2: zwarte Kamado op een terras" aria-pressed="false" data-gallery-index="1"><img src="img/kamado-deck.png" alt=""></button>
-                    <button class="gallery-thumb" type="button" aria-label="Toon foto 3: groene Kamado met zijtafels" aria-pressed="false" data-gallery-index="2"><img src="img/kamado-green.png" alt=""></button>
-                    <button class="gallery-thumb" type="button" aria-label="Toon foto 4: Kamado met deksel open en eten op de grill" aria-pressed="false" data-gallery-index="3"><img src="img/kamado-open.png" alt=""></button>
+                    <button class="gallery-thumb" type="button" aria-label="Toon foto 2: Kamado met zijtafels op een terras" aria-pressed="false" data-gallery-index="1"><img src="img/product-kamado-deck.png" alt=""></button>
+                    <button class="gallery-thumb" type="button" aria-label="Toon foto 3: Kamado met deksel open en eten op de grill" aria-pressed="false" data-gallery-index="2"><img src="img/product-kamado-open.png" alt=""></button>
                 </div>
-                <span class="gallery-hint">Klik of gebruik ← →</span>
             </div>
-            <p class="visually-hidden" aria-live="polite" data-gallery-status>Foto 1 van 4: Zwarte Kamado met houten zijtafels</p>
+            <p class="visually-hidden" aria-live="polite" data-gallery-status>Foto 1 van 3: Zwarte Kamado met houten zijtafels</p>
         </div>
         <div class="product-copy">
             <p class="eyebrow">01 / De klassieker</p>
@@ -45,64 +43,76 @@ require __DIR__ . '/includes/header.php';
     <section class="catalog-section section-wrap" aria-labelledby="catalog-heading">
         <div class="catalog-heading">
             <div>
-                <p class="eyebrow">Kies jouw maat</p>
-                <h2 id="catalog-heading">Zes Kamado's.<br><span>Voor ieder terras.</span></h2>
+                <p class="eyebrow">Assortiment</p>
+                <h2 id="catalog-heading">Kamado's & producten.<br><span>Bekijk het aanbod.</span></h2>
             </div>
-            <p>Van een compacte barbecue voor het balkon tot een complete buitenkeuken. Elke Kamado wordt op bestelling samengesteld. De prijzen zijn richtprijzen; Joris helpt je graag met de uitvoering en accessoires.</p>
+            <p>Bekijk de Kamado's en producten op de foto's. Prijs en beschikbaarheid zijn op aanvraag. Let op: een propaanfles en terpentine zijn geen Kamado-accessoires.</p>
         </div>
         <div class="product-grid">
             <article class="product-card">
-                <img src="img/kamado-open.png" alt="Compacte zwarte Kamado met het deksel open en eten op de grill" loading="lazy">
+                <figure class="product-photo">
+                    <img src="img/product-kamado-open.png" alt="Zwarte Kamado met open deksel en eten op het rooster" loading="lazy">
+                </figure>
                 <div class="product-card-copy">
-                    <p class="eyebrow">15 inch · Compact</p>
-                    <h3>De Balkonmaat</h3>
-                    <p>Past op een kleiner terras en is groot genoeg voor een etentje met vrienden.</p>
-                    <div class="product-card-bottom"><strong>Vanaf € 749</strong><a class="text-link" href="mailto:hallo@kamadobreda.nl?subject=De%20Balkonmaat%20bestellen">Informeer <span aria-hidden="true">→</span></a></div>
+                    <p class="eyebrow">Kamado · Open deksel</p>
+                    <h3>De Open Grill</h3>
+                    <p>Keramische barbecue voor grillen en rustig garen. Vraag naar de beschikbare maten.</p>
+                    <div class="product-card-bottom"><strong>Prijs op aanvraag</strong><a class="text-link" href="mailto:hallo@kamadobreda.nl?subject=Kamado%20met%20open%20deksel">Informeer <span aria-hidden="true">→</span></a></div>
                 </div>
             </article>
             <article class="product-card">
-                <img src="img/kamado-deck.png" alt="Zwarte Kamado met houten zijtafels op het terras" loading="lazy">
+                <figure class="product-photo">
+                    <img src="img/product-kamado-deck.png" alt="Zwarte Kamado met zijtafels op een terras" loading="lazy">
+                </figure>
                 <div class="product-card-copy">
-                    <p class="eyebrow">18 inch · Medium</p>
-                    <h3>De Klassieker</h3>
-                    <p>Een veelzijdige maat voor dagelijks grillen, roken en rustig garen.</p>
-                    <div class="product-card-bottom"><strong>Vanaf € 1.099</strong><a class="text-link" href="mailto:hallo@kamadobreda.nl?subject=De%20Klassieker%20bestellen">Informeer <span aria-hidden="true">→</span></a></div>
+                    <p class="eyebrow">Kamado · Zijtafels</p>
+                    <h3>De Terrasgrill</h3>
+                    <p>Kamado met werkruimte voor het voorbereiden en serveren van je gerechten.</p>
+                    <div class="product-card-bottom"><strong>Prijs op aanvraag</strong><a class="text-link" href="mailto:hallo@kamadobreda.nl?subject=Kamado%20met%20zijtafels">Informeer <span aria-hidden="true">→</span></a></div>
                 </div>
             </article>
             <article class="product-card">
-                <img src="img/kamado-green.png" alt="Groene Kamado met houten zijtafels en onderstel" loading="lazy">
+                <figure class="product-photo">
+                    <img src="img/product-bbq-spatel.png" alt="Roestvrijstalen barbecuespatel" loading="lazy">
+                </figure>
                 <div class="product-card-copy">
-                    <p class="eyebrow">21 inch · Large</p>
-                    <h3>De Tuinkok</h3>
-                    <p>Extra grillruimte voor lange zomeravonden en koken voor een grotere groep.</p>
-                    <div class="product-card-bottom"><strong>Vanaf € 1.399</strong><a class="text-link" href="mailto:hallo@kamadobreda.nl?subject=De%20Tuinkok%20bestellen">Informeer <span aria-hidden="true">→</span></a></div>
+                    <p class="eyebrow">Accessoire · Grillgerei</p>
+                    <h3>BBQ-spatel</h3>
+                    <p>Handige spatel om eten op de grill om te draaien en te serveren.</p>
+                    <div class="product-card-bottom"><strong>Prijs op aanvraag</strong><a class="text-link" href="mailto:hallo@kamadobreda.nl?subject=BBQ-spatel">Informeer <span aria-hidden="true">→</span></a></div>
                 </div>
             </article>
             <article class="product-card">
-                <img src="img/kamado-black-shelves.png" alt="Zwarte Kamado met houten zijtafels in een tuin" loading="lazy">
+                <figure class="product-photo">
+                    <img src="img/product-houtskool.png" alt="Zak Napoleon Premium Lumpwood houtskool van 3 kilogram" loading="lazy">
+                </figure>
                 <div class="product-card-copy">
-                    <p class="eyebrow">24 inch · XL</p>
-                    <h3>De Pitmaster</h3>
-                    <p>Veel plek voor uitgebreide barbecues, grote stukken vlees en meerdere gerechten.</p>
-                    <div class="product-card-bottom"><strong>Vanaf € 1.799</strong><a class="text-link" href="mailto:hallo@kamadobreda.nl?subject=De%20Pitmaster%20bestellen">Informeer <span aria-hidden="true">→</span></a></div>
+                    <p class="eyebrow">Brandstof · 3 kg</p>
+                    <h3>Lumpwood houtskool</h3>
+                    <p>Napoleon Premium Lumpwood houtskool, geschikt voor barbecuegebruik.</p>
+                    <div class="product-card-bottom"><strong>Prijs op aanvraag</strong><a class="text-link" href="mailto:hallo@kamadobreda.nl?subject=Napoleon%20houtskool">Informeer <span aria-hidden="true">→</span></a></div>
                 </div>
             </article>
             <article class="product-card">
-                <img src="img/kamado-green.png" alt="Groene Kamado als inspiratie voor een buitenkeuken" loading="lazy">
+                <figure class="product-photo">
+                    <img src="img/product-propaanfles.png" alt="Lege propaanfles" loading="lazy">
+                </figure>
                 <div class="product-card-copy">
-                    <p class="eyebrow">21 inch · Inbouw</p>
-                    <h3>De Buitenkeuken</h3>
-                    <p>Een losse Kamado om in een eigen buitenkeuken of maatwerkblad te plaatsen.</p>
-                    <div class="product-card-bottom"><strong>Vanaf € 1.499</strong><a class="text-link" href="mailto:hallo@kamadobreda.nl?subject=De%20Buitenkeuken%20bestellen">Informeer <span aria-hidden="true">→</span></a></div>
+                    <p class="eyebrow">Gasfles · Leeg</p>
+                    <h3>Propaanfles</h3>
+                    <p>De afbeelding toont een lege fles. Propaan is geen brandstof voor een houtskool-Kamado.</p>
+                    <div class="product-card-bottom"><strong>Prijs op aanvraag</strong><a class="text-link" href="mailto:hallo@kamadobreda.nl?subject=Vraag%20over%20de%20propaanfles">Informeer <span aria-hidden="true">→</span></a></div>
                 </div>
             </article>
             <article class="product-card">
-                <img src="img/kamado-open.png" alt="Zwarte Kamado met open deksel en zijtafels" loading="lazy">
+                <figure class="product-photo">
+                    <img src="img/product-terpentine.png" alt="Fles terpentine of white spirit, 1 liter" loading="lazy">
+                </figure>
                 <div class="product-card-copy">
-                    <p class="eyebrow">21 inch · Compleet</p>
-                    <h3>De Buitenchef</h3>
-                    <p>Een Large Kamado met onderstel, zijtafels en gietijzeren rooster.</p>
-                    <div class="product-card-bottom"><strong>Vanaf € 1.699</strong><a class="text-link" href="mailto:hallo@kamadobreda.nl?subject=De%20Buitenchef%20bestellen">Informeer <span aria-hidden="true">→</span></a></div>
+                    <p class="eyebrow">Oplosmiddel · 1 liter</p>
+                    <h3>Terpentine</h3>
+                    <p>Geen barbecueproduct. Brandbaar: niet gebruiken om een barbecue aan te steken of schoon te maken; uit de buurt van vuur houden.</p>
+                    <div class="product-card-bottom"><strong>Prijs op aanvraag</strong><a class="text-link" href="mailto:hallo@kamadobreda.nl?subject=Vraag%20over%20terpentine">Informeer <span aria-hidden="true">→</span></a></div>
                 </div>
             </article>
         </div>
